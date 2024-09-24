@@ -1,0 +1,56 @@
+.rootLayout {
+  padding: 16px 64px;
+  height: 100vh;
+  flex: 1;
+  /* min-height: 100vh; */
+  /* padding-bottom: 15vh; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.nav img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+.logo a:hover {
+  padding: 0px;
+  border-radius: 50%;
+}
+
+.logo .fullLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.logo .fullLogo a{
+  padding: 0px;
+}
+
+.logo p {
+  color: #370137;
+}
+
+main {
+  /* background-color: #370137; */
+  flex: 1;
+  overflow: hidden;
+}
