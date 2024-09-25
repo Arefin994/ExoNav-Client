@@ -47,7 +47,7 @@ const DashboardPage = () => {
         <div className="options">
           <div className="option">
             <img src={assets.chat} alt="" />
-            <span>Create a New Chat</span>
+            <span>New Chat</span>
           </div>
           <div className="option">
             <img src={assets.image} alt="" />
@@ -55,7 +55,7 @@ const DashboardPage = () => {
           </div>
           <div className="option">
             <img src={assets.code} alt="" />
-            <span>Help me with my code</span>
+            <span>Help with code</span>
           </div>
         </div>
       </div>

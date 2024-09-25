@@ -23,8 +23,8 @@
   }
   
   .logo img {
-    width: 64px;
-    height: 64px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
   }
   
@@ -41,19 +41,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 20px;
   }
   
   .option {
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     font-weight: 300;
     font-size: 14px;
+    color: #fff;
     padding: 20px;
     border: 1px solid #555;
     border-radius: 20px;
+    cursor: pointer;
   }
   
   .option img {
